@@ -1,0 +1,43 @@
+header {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header, footer {
+    background: rgb(206, 54, 123);
+    color: rgb(0, 0, 0);
+    padding: 16px;
+}
+
+#logotipo {
+    font-size: 48px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+main {
+    background-color: rgb(182, 138, 165);
+    padding: 16px;
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    font-style: italic;
+    font-weight: 100;
+}
+
+img {
+    margin: 32px;
+}
+
+small {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+}
