@@ -24,11 +24,6 @@ main {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-h2 {
-    font-style: italic;
-    font-weight: 100;
-}
-
 img {
     margin: 32px;
 }
@@ -41,3 +36,18 @@ footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0px;
 }
+/* Aplicação das propriedades flex box */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  li, .rede-social {
+    margin-left: 48px;
+  }
